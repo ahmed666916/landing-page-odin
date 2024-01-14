@@ -1,4 +1,6 @@
-
+.navbar{
+    float: right;
+}
 li {
     display: inline;
 }

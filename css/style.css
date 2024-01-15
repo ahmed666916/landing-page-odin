@@ -10,6 +10,16 @@ body{
 }
 
 /* Header and navbar*/ 
+.header {
+    background-color:#1F2937;
+}
+
+.text h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    
+}
+
 .navbar{
     float: right;
 }

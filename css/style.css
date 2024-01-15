@@ -4,6 +4,10 @@
     
 }
 
+body{
+    margin: 50px;
+}
+
 /* Header and navbar*/ 
 .navbar{
     float: right;

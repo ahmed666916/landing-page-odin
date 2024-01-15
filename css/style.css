@@ -1,3 +1,5 @@
+
+/* Header and navbar*/ 
 .navbar{
     float: right;
 }
@@ -6,13 +8,26 @@ ul li{
     display: inline;
 }
 
-.main img{
-    margin-left: 10px; 
+
+/* Main section*/ 
+.main{
+    position: relative;
+    overflow: hidden;
+}
+
+.item{
     float: left;
+    margin-right: 1em;
     text-align: center;
-    overflow: auto; 
-    width: 100px;
-    border:2px solid white; 
-    border: 50%; 
+}
+
+.image-text{
+    position:absolute;
+    bottom:0px;
+}
+
+.main img{
+    width: 100%;
+    display: block;
 }
     

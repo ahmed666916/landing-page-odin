@@ -5,7 +5,7 @@
 }
 
 body{
-    margin: 50px;
+    margin: 100px;
 }
 
 /* Header and navbar*/ 
@@ -22,7 +22,9 @@ ul li{
 
 .image-row {
     display: flex;
+    margin: 50px;
 }
+
 
 .item{
     flex: 25%;

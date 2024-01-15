@@ -1,47 +1,7 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #ccc;
-}
-
 .navbar{
     float: right;
 }
 
-.navbar a {
-    float: left;
-    color: #231f1f;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-
-/* Change the color of links on hover */
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-
-li {
+ul li{
     display: inline;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    }
-
-.logo{
-    width: 15%;
-    display: flex;
-    align-items: center;
-      }
-      
-  

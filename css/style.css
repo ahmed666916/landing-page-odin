@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     
+    
 }
 
 body{
@@ -29,13 +30,13 @@ ul li{
 .item{
     flex: 25%;
     padding: 5px;
-    width: 350px;
+    width: 150px;
     height: 150px;
     text-align: center;
 }
 
 
 .image-text{
-    font-size: 1.0em;
+    font-size: 0.9em;
 }
 

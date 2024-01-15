@@ -14,8 +14,10 @@ body{
     background-color:#1F2937;
 }
 
+
+
 .header-container{
-    display: grid;
+    display: inline-grid;
     grid-template-columns: auto auto auto;
 }
 

@@ -49,6 +49,10 @@ ul li{
 
 /* Main section*/ 
 
+.main{
+    text-align: center;
+}
+
 .image-row {
     display: flex;
     margin: 50px;

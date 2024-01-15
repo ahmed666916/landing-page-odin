@@ -16,6 +16,13 @@ body{
 
 
 
+.logo{
+    color: #F9FAF8;
+}
+.navbar a{
+    color: #F9FAF8;
+}
+
 .header-container{
     display: inline-grid;
     grid-template-columns: auto auto auto;

@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    
 }
 
 /* Header and navbar*/ 
@@ -23,5 +23,13 @@ ul li{
 .item{
     flex: 25%;
     padding: 5px;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+}
+
+
+.image-text{
+    font-size: 1.0em;
 }
 

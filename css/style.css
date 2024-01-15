@@ -20,6 +20,10 @@ body{
     
 }
 
+.text p{
+    color: #E5E7EB;
+}
+
 .navbar{
     float: right;
 }
@@ -27,6 +31,8 @@ body{
 ul li{
     display: inline;
 }
+
+
 
 
 /* Main section*/ 

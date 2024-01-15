@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box;
+}
+
 /* Header and navbar*/ 
 .navbar{
     float: right;
@@ -11,15 +15,12 @@ ul li{
 
 /* Main section*/ 
 
+.image-row {
+    display: flex;
+}
+
 .item{
-    float: left;
-    width: 33.33%;
+    flex: 25%;
     padding: 5px;
 }
 
-/* Clear floats after image containers */
-.image-row::after {
-    content: "";
-    clear: both;
-    display: table;
-}

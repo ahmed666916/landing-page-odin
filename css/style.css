@@ -5,3 +5,14 @@
 ul li{
     display: inline;
 }
+
+.main img{
+    margin-left: 10px; 
+    float: left;
+    text-align: center;
+    overflow: auto; 
+    width: 100px;
+    border:2px solid white; 
+    border: 50%; 
+}
+    

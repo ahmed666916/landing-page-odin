@@ -1,6 +1,8 @@
 
 * {
     box-sizing: border-box;
+    border: 1px solid red;
+    
     
     
 }
@@ -12,12 +14,15 @@ body{
 /* Header and navbar*/ 
 .header {
     background-color:#1F2937;
+    padding: 20px;
 }
 
 
 
 .logo{
     color: #F9FAF8;
+    margin: 20px;
+   
 }
 .navbar a{
     color: #F9FAF8;
@@ -77,5 +82,44 @@ ul li{
 
 .image-text{
     font-size: 0.9em;
+}
+
+.container-quote{
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.container-quote h2{
+    float: right;
+    
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.container {
+    overflow: auto; /* or hidden, scroll, etc. */
+}
+
+.container a{
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    padding: 10px;
+    
+}
+
+.footer{
+    background-color:#1F2937 ;
+    color: white;
+    text-align: center;
 }
 

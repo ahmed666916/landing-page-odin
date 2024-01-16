@@ -17,13 +17,24 @@ body{
     padding: 20px;
 }
 
+.navigation{
+    border: 1px solid yellow;
+    clear:both;
+    overflow:auto;
+}
 
 
 .logo{
+    float: left;
     color: #F9FAF8;
-    margin: 20px;
+    margin: 10px;
    
 }
+
+.navbar{
+    float: right;
+}
+
 .navbar a{
     color: #F9FAF8;
 }
@@ -48,18 +59,17 @@ body{
     color: #E5E7EB;
 }
 
-.navbar{
-    float: right;
-}
-
 ul li{
-    display: inline;
+    display: inline-block; 
+    padding:10px;
+    font-size:20px; 
+    font-family:raleway;
 }
 
 
 
 
-/* Main section*/ 
+/* Main section with images with text*/ 
 
 .main{
     text-align: center;
@@ -84,6 +94,9 @@ ul li{
     font-size: 0.9em;
 }
 
+
+/* Quote section */
+
 .container-quote{
     background-color: #E5E7EB;
     text-align: center;
@@ -104,6 +117,9 @@ ul li{
 }
 
 
+/* Call to action section */
+
+
 .container {
     overflow: auto; /* or hidden, scroll, etc. */
 }
@@ -117,6 +133,9 @@ ul li{
     
 }
 
+
+
+/* footer */
 .footer{
     background-color:#1F2937 ;
     color: white;
